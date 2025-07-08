@@ -1,5 +1,7 @@
 package fr.algorithmie;
 
+import java.util.Arrays;
+
 public class Rotation {
     public static void main(String[] args) {
         int[] array = {0, 1, 2, 3};
@@ -15,9 +17,7 @@ public class Rotation {
             }
         }
 
-        for (int val : array)
-        {
-            System.out.println(val);
-        }
+        System.out.println("Tableau après rotation :");
+        System.out.println(Arrays.toString(array));
     }
 }

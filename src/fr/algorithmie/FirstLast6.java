@@ -9,6 +9,6 @@ public class FirstLast6 {
 
         boolean firstLast6 = array.length > 0 && array[0] == 6 || array[array.length - 1] == 6;
 
-        System.out.println(firstLast6);
+        System.out.println("Le tableau contient au moins un élément et le premier ou le dernier élément est 6 : " + firstLast6);
     }
 }

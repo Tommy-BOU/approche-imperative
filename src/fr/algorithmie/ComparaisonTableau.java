@@ -17,6 +17,6 @@ public class ComparaisonTableau {
             }
         }
 
-        System.out.println(elemCommun);
+        System.out.println("Nombre d'éléments communs aux deux tableaux : " + elemCommun);
     }
 }

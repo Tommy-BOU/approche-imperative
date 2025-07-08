@@ -12,6 +12,8 @@ public class CalculMoyenne {
         }
 
         moy = somme / array.length;
+
+        System.out.println("Moyenne des éléments du tableau :");
         System.out.println(moy);
     }
 }

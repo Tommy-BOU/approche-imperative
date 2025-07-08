@@ -17,6 +17,6 @@ public class InteractifSommeArithmetique {
             sum += i;
         }
 
-        System.out.println(sum);
+        System.out.println("Somme des entiers entre 1 et " + num + " : " + sum);
     }
 }

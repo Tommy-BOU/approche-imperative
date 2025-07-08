@@ -12,7 +12,7 @@ public class RechercheMax {
                 max = val;
             }
         }
-
+        System.out.println("Plus grand élément du tableau :");
         System.out.println(max);
 
     }

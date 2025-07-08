@@ -12,12 +12,14 @@ public class InversionContenu {
             arrayCopy[i] = array[array.length - 1 - i];
         }
 
+        System.out.println("Tableau original :");
         for (int val : array){
             System.out.println(val);
         }
 
         System.out.println("-----------------------------------------------------------------------------------");
 
+        System.out.println("Tableau copié :");
         for (int val : arrayCopy){
             System.out.println(val);
         }

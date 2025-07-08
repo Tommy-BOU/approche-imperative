@@ -14,6 +14,6 @@ public class NombreParfait {
 
         boolean isPerfect = entier == sum;
 
-        System.out.println(isPerfect);
+        System.out.println("Le nombre " + entier + " est " + (isPerfect ? "parfait" : "imparfait"));
     }
 }

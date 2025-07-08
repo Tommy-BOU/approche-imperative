@@ -13,6 +13,7 @@ public class RechercheMin {
             }
         }
 
+        System.out.println("Plus petit élément du tableau :");
         System.out.println(min);
     }
 }

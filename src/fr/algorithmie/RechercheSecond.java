@@ -16,7 +16,7 @@ public class RechercheSecond {
             }
         }
 
-        System.out.println(secondMax);
+        System.out.println("Second plus grand élément du tableau : " + secondMax);
 
     }
 }

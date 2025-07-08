@@ -9,11 +9,12 @@ public class SommeDeTableaux {
 
         int[] tabSomme = new int[tab1.length];
 
+
         for (int i = 0; i < tabSomme.length; i++) {
             tabSomme[i] = tab1[i] + tab2[i];
-
-            System.out.println(tabSomme[i]);
         }
 
+        System.out.println("Tableau contenant la somme des 2 précédents tableaux :");
+        System.out.println(Arrays.toString(tabSomme));
     }
 }
