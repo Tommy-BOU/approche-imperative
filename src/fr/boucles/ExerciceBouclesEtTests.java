@@ -41,7 +41,7 @@ public class ExerciceBouclesEtTests {
         System.out.println("-----------------------------------------------------------------------");
 
         for (int val : array) {
-            if (val % 2 == 1) {
+            if (val % 2 != 0) {
                 System.out.println(val);
             }
         }
